@@ -12,7 +12,7 @@ def average_lists(list1, list2):
     for number in new_list:
         sum += number
         amount += 1
-        average = sum / amount
+    average = sum / amount
     print("the average is " + str(average))
 
 def main():
